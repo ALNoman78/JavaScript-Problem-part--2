@@ -146,7 +146,7 @@ console.log("The price after discount = ", items);
 const product = [
     { name: "Shampoo", price: 400 , quantity : 1},
     { name: "Sop", price: 200 , quantity : 3},
-    { name: "Conditionar", price: 2400, quantity : 2 },
+    { name: "Conditioner", price: 2400, quantity : 2 },
     { name: "Face Power", price: 200 , quantity : 4},
     { name: "Suns cream", price: 1400 , quantity : 5},
 ];
@@ -155,7 +155,6 @@ const product = [
 function productItems(items) {
     let sum = 0;
     for (const e of items) {
-        // console.log(e);
         let items = e.price * e.quantity;
         sum += items;
     }
