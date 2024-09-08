@@ -12,7 +12,7 @@ const phones = [
 ];
 
 
-function chepMobile(mobile) {
+function cheapMobile(mobile) {
     let minMobile = mobile[0]
     for (const e of mobile) {
         if (e.price > minMobile.price) {
@@ -21,5 +21,5 @@ function chepMobile(mobile) {
     }
     return minMobile;
 }
-const valueMobile = chepMobile(phones)
+const valueMobile = cheapMobile(phones)
 console.log(valueMobile);
