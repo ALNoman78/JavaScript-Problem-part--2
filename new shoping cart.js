@@ -3,7 +3,7 @@
 const product = [
     { name: "Shampoo", price: 400 , quantity : 2,},
     { name: "Sop", price: 200 , quantity : 3,},
-    { name: "Conditionar", price: 2400 , quantity : 4,},
+    { name: "Conditioner", price: 2400 , quantity : 4,},
     { name: "Face Power", price: 200 , quantity : 5,},
     { name: "Suns cream", price: 1400, quantity : 1,},
 ];
